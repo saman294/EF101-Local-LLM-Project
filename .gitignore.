@@ -1,0 +1,13 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Local conversation logs
+logs/*.jsonl
+
+# Streamlit secrets
+.streamlit/secrets.toml
