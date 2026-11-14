@@ -18,7 +18,7 @@ PROMPT_TEMPLATES = {
 LOG_FILE = Path("logs/conversations.jsonl")
 LOG_FILE.parent.mkdir(exist_ok=True)
  
-st.set_page_config(page_title="z", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="Local AI Lab", page_icon="🧠", layout="wide")
  
 if "messages" not in st.session_state:
     st.session_state.messages = []
